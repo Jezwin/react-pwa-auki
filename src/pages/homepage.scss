@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "AvenirNextLTCom-Demi";
+  src: url("../assets/fonts/AvenirNextLTCom-Demi.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "AvenirNextLTCom-Regular";
+  src: url("../assets/fonts/AvenirNextLTCom-Regular.ttf") format("opentype");
+}
+
+@media (min-width: 1920px) {
+  .auki {
+    &__container {
+      width: 1920px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
